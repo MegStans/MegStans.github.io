@@ -36,25 +36,25 @@
       margin-top: 1rem; }
       
     p.first {
-      margin-top:0;
+      margin-top:2;
     }
 
     h4 {
-      margin-top: 7;
-      margin-bottom: 5rem;
-      font-size: 2.4rem;
-      line-height: 1.35; 
+      margin-top: 8;
+      margin-bottom: 8rem;
+      font-size: 5rem;
+      line-height: 5; 
     }
 
     h4.title { margin-top: 7;
-      margin-bottom: 5rem;
-      font-size: 4.5rem;
-      line-height: 1; 
+      margin-bottom: 3rem;
+      font-size: 4.5rsem;
+      line-height: .5; 
       
     }
 
-    h4.author { margin-top: 7;
-      margin-bottom: 5rem;
+    h4.author { margin-top: 4;
+      margin-bottom: 8rem;
       font-size: 2rem;
       line-height: 1.35; 
       
@@ -65,12 +65,17 @@
     }
 
     .column {
-      width: 65rem; /* Set your column width here */
+      width: 25rem; /* Set your column width here */
       margin: auto;
     }
 
     /* Larger than mobile */
-    @media (min-width: 400px) {}
+    @media (min-width: 400px) {
+	    .column {
+	      width: 80rem; /* Set your column width here */
+	      margin: auto;
+	    }
+    }
 
     /* Larger than phablet (also point when grid becomes active) */
     @media (min-width: 550px) {}
